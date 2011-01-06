@@ -16,7 +16,7 @@
 				<ul data-role="listview" data-inset="true" data-theme="c" data-dividertheme="b"> 
 					<li data-role="list-divider">Data</li> 
 					<li><a href="<?php make_link('data'); ?>">Data</a></li> 
-					<li><a href="<?php make_link('add.php'); ?>" data-rel="dialog"><?php _e('add-record'); ?></a></li> 
+					<li><a href="<?php make_link('add.php'); ?>" rel="external"><?php _e('add-record'); ?></a></li> 
 				</ul> 
 			</div> 
 		</div>		
